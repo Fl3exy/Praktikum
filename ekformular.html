@@ -1,8 +1,35 @@
-<!DOCTYPE html>
-               <head>
-			         <title> EK Gaming Bewerbungsformular </title>
+<!doctype html>
+<html lang="de">
+  <head>
+    <title>.:EK GAMING:.</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+
+			   
 					
-					<link rel="stylesheet" href="/Formular.css">
+    <link rel="stylesheet" href="/css/Formular.css" />
 					
 					
 					
@@ -67,7 +94,11 @@
 }
 </script>
 			   </head>
-			          <body>
+			          <body><div id="Main" class="container">
+                  <div class="row" >
+                    <div class="col-sm">
+                        
+                     
 			               <h1> EK Gaming Bewerbungsformular </h1>
 			   
 			   
@@ -75,25 +106,26 @@
 			                   <h2> Formular</h2>
 							      <p> bitte antworte ehrlich auf die kommen den fragen</p>
 								   
-
-<form Online Id="myForm" action="#" onsubmit="return validateForm()" method="post">
-  <div><labael For="OnlineID">Online ID:</label> <input type="text" Name="OnlineId"></div>
-   <div><labael For="Name1">Name:</label> <input type="text" Name="Name1"></div>
-     <div><labael For="Platform1">Platform:</label> <input type="text" Name="Platform1"></div>
-	   <div><labael For="Rolle1">Deine Rolle:</label> <input type="text" Name="Rolle1"></div>
-	     <div><labael For="Alter1">Wie alt bist du:</label> <input type="text" Name="Alter1"></div>
-		   <div><labael For="Rang">Was ist dein Rang:</label> <input type="text" Name="Rang"></div>
-		     <div><labael For="Why?">Warum sollen wir dich nehmen?::</label> <input type="text" Name="Why?"></div>
-	          <div><labael For="Whyus?">Warum dieser Clan?::</label> <input type="text" Name="Whyus?"></div>
-			    <div><labael For="Teams">In welchen Clans warst du die letzten 6 Monate? Und warum hast du den letzten Verlassen?:</label> <input type="text" Name="Teams"></div>
-				 <div><labael For="Maps">Welche Map liegt dir am Meisten von den Pro League Maps? Magst du eine Map davon überhaupt nicht?:</label> <input type="text" Name="Maps"></div>
-				   <div><labael For="Fragen">Liegt dir jetzt noch was auf dem Herzen? Nun hast du die Möglichkeit alles fehlende noch zu ergänzen:</label> <input type="text" Name="Fragen"></div>
-                    <div><labael For="Daten">Bitte hinterlass uns doch Deine Kontaktdaten z.b. Deinen Discord tag also Max Muster#0000 oder deine email:</label> <input type="text" Name="Daten"></div>
+                    
+<form Online Id="myForm" action="mailto:fl3exy.ek@gmail.com" onsubmit="return validateForm()"  method="post" enctype="text/plain">
+  <div class="form-group"><label For="OnlineID">Online ID:</label> <input type="text" Name="OnlineId"></div>
+   <div class="form-group"><label For="Name1">Name:</label> <input type="text" Name="Name1"></div>
+     <div class="form-group"><label For="Platform1">Platform:</label> <input type="text" Name="Platform1"></div>
+	   <div class="form-group"><label For="Rolle1">Deine Rolle:</label> <input type="text" Name="Rolle1"></div>
+	     <div class="form-group"><label For="Alter1">Wie alt bist du:</label> <input type="text" Name="Alter1"></div>
+		   <div class="form-group"><label For="Rang">Was ist dein Rang:</label> <input type="text" Name="Rang"></div>
+		     <div class="form-group"><label For="Why?">Warum sollen wir dich nehmen?::</label> <input type="text" Name="Why?"></div>
+	          <div class="form-group"><label For="Whyus?">Warum dieser Clan?::</label> <input type="text" Name="Whyus?"></div>
+			    <div class="form-group"><label For="Teams">In welchen Clans warst du die letzten 6 Monate? Und warum hast du den letzten Verlassen?:</label> <input type="text" Name="Teams"></div>
+				 <div class="form-group"><label For="Maps">Welche Map liegt dir am Meisten von den Pro League Maps? Magst du eine Map davon überhaupt nicht?:</label> <input type="text" Name="Maps"></div>
+				   <div class="form-group"><label For="Fragen">Liegt dir jetzt noch was auf dem Herzen? Nun hast du die Möglichkeit alles fehlende noch zu ergänzen:</label> <input type="text" Name="Fragen"></div>
+                    <div class="form-group"><label For="Daten">Bitte hinterlass uns doch Deine Kontaktdaten z.b. Deinen Discord tag also Max Muster#0000 oder deine email:</label> <input type="text" Name="Daten"></div>
  
- <input type="submit" value="Submit">
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-									   
-		  
+</div>
+</div>
+		  </div>
 		   
 			           </body>
 			   
