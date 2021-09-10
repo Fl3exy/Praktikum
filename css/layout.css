@@ -1,0 +1,70 @@
+*{margin:0px;
+ padding: 0px;}
+
+ body{background-color: black;}
+
+
+.clearer {
+    float:none; clear: both;
+}
+.blau{
+    color: #3adbff;
+}
+.lila{
+    color: #6c0afb;
+}
+.dunkellila{
+    color: #231a39;
+    
+}
+.mittellila{
+    color: #473764;
+}
+.hellgrau{
+    color:#c7b4f6;
+
+
+}
+/*Initial*/
+#Augen{display: inline;}
+#Wolf{display: none;}
+#Video{display: none;}
+
+
+
+.backblau{color: #3adbff;}
+#Logo {width:600px;margin:30px;}
+#Buttons{margin-top:30px;}
+#Impressum{margin-top:20px;}
+#Sozial {margin-top:20px;}
+#Sozial i,span {font-size:3em; }
+#Gamelogos{margin-top:20px;}
+#Augen img{width:340px;}
+#Wolf img{width:340px;}
+#Video video{width:340px;}
+div {text-align: center;}
+#Impressum{margin-bottom: 30px;}
+
+/* Small screen / tablet / 760px to 991px */
+@media (max-width: 991px) {
+
+    @media (max-width: 759px) {
+        #Logo {width:400px;margin:20px;}
+        #Augen img{width:140px;}
+#Wolf img{width:140px;}
+#Video video{width:140px;}
+#Buttons button{font-size:.6em; margin-top: 40px;}
+    }
+    
+    /* Smaller screen / tablet+phone / 480px to 759px */
+    @media (max-width: 759px) {
+        #Logo {width:400px;margin:20px;}
+        #Augen img{width:280px;}
+#Wolf img{width:280px;}
+#Video video{width:280px;}
+#Buttons button{font-size:1em; margin-top: 10px;}
+    
+    }
+    
+    
+}
